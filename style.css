@@ -1,0 +1,43 @@
+@media print {
+    .book {
+        position: static !important;
+        overflow: initial !important;
+    }
+
+    .book-header {
+        display: none;
+    }
+
+    .book-body {
+        left: 0px !important;
+        -webkit-transform: translate(0) !important;
+        -moz-transform: translate(0) !important;
+        -ms-transform: translate(0) !important;
+        -o-transform: translate(0) !important;
+        transform: translate(0) !important;
+        width: auto;
+        height: auto;
+        position: relative !important;
+        contain: none;
+        overflow: visible !important;
+    }
+
+    .body-inner {
+        overflow-y: scroll !important;
+    }
+
+    .page-inner {
+        margin-top: 20px;
+    }
+
+    .book-summary {
+        overflow-y: visible !important;
+        width: 300px !important;
+        left: -300px !important;
+        position: absolute !important;
+    }
+
+    .footer {
+        display: none !important;
+    }
+}
